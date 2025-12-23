@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Save Selection to Markdown",
+    "version": "1.0",
+    "description": "右键将选中文本保存为.md，同时在文件顶部记录当前页面 URL 与时间。",
+    "permissions": [
+        "contextMenus",
+        "downloads",
+        "scripting",
+        "activeTab"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}
